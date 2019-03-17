@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/entreprenerder/wedding/precache-manifest.493a667f7916333842397f662abd4d12.js"
+  "/wedding/precache-manifest.0c8d110aba1f279a91fc840442fb2889.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/entreprenerder/wedding/index.html", {
+workbox.routing.registerNavigationRoute("/wedding/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
