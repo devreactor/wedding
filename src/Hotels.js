@@ -8,7 +8,7 @@ const Tile = styled.a`
   display: block;
   border-radius: 8px;
   box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   cursor: pointer;
   text-align: center;
   font-size: 16px;
@@ -88,6 +88,32 @@ const Hotels = () => (
             98056
           </Address>
           <div>425-203-1234</div>
+        </Tile>
+      </Col>
+      <Col md={4} sm={12}>
+        <Tile target='_blank' href='https://www.marriott.com/hotels/travel/bvuwa-residence-inn-seattle-bellevue/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2'>
+          <HotelImage src='https://cache.marriott.com/marriottassets/marriott/BVUWA/bvuwa-exterior-0025-hor-feat.jpg?interpolation=progressive-bilinear&downsize=1180px:*' />
+          <div style={{fontSize:20}}>Residence Inn</div>
+          <Small>by Marriott Seattle Bellevue</Small>
+          <Address>
+            14455 NE 29th Pl<br/>
+            Bellevue, WA<br/>
+            98007
+          </Address>
+          <div>425-882-1222</div>
+        </Tile>
+      </Col>
+      <Col md={4} sm={12}>
+        <Tile target='_blank' href='https://www3.hilton.com/en/hotels/washington/hilton-bellevue-LION-HF/index.html?SEO_id=GMB-HI-LIONHF'>
+          <HotelImage src='https://www3.hilton.com/resources/media/hi/LION-HF/en_US/img/shared/full_page_image_gallery/main/HH_backexterior_2_1270x560_FitToBoxSmallDimension_LowerCenter.jpg' />
+          <div style={{fontSize:20}}>Hilton Bellevue</div>
+          <Small>set in the business district of Bellevue</Small>
+          <Address>
+            300 112th Ave SE<br/>
+            Bellevue, WA<br/>
+            98004
+          </Address>
+          <div>425-455-1300</div>
         </Tile>
       </Col>
     </Row>
