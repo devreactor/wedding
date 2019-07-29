@@ -6,6 +6,7 @@ import {Container,Col,Row} from 'react-bootstrap';
 import Hotels from './Hotels';
 import {SubHeader} from './styles';
 import Map from './Map';
+import SuggestedAirport from './SuggestedAirport';
 
 
 const Banner = styled.div`
@@ -60,6 +61,11 @@ const Home = () => {
 
               <Map/>
 
+              <Separator/>
+
+              <SuggestedAirport />
+
+
             </div>
           </Col>
           <Col sm={0} md={3} />
@@ -67,6 +73,9 @@ const Home = () => {
       </Container>
       <Separator />
       <Hotels />
+
+
+
       <img src={blueBanner} width='100%' alt='bottom_border' />
     </div>
   );

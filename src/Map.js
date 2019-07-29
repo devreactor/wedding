@@ -10,8 +10,7 @@ const Map = () => (
   <div>
     <SubHeader>Ceremony and Reception</SubHeader>
     <i>
-      <p>The Golf Club At Newcastle</p>
-      <p>15500 Six Penny Ln, Newcastle, WA 98059, USA</p>
+      <p>The Golf Club At Newcastle<br/>15500 Six Penny Ln, Newcastle, WA 98059, USA</p>
     </i>
     <br/>
   <div style={{display:'inline-block'}} dangerouslySetInnerHTML={googleMaps} />
